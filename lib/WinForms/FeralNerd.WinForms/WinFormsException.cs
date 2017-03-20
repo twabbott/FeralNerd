@@ -28,7 +28,7 @@ namespace FeralNerd.WinForms
         /// </summary>
         /// 
         /// <param name="innerException">
-        ///     An inner exception.
+        ///     An inner exception that you want to re-throw.
         /// </param>
         /// <param name="format">
         ///     The exception message.
