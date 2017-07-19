@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeralNerd.FLog.Tests", "FeralNerd.FLog.Tests\FeralNerd.FLog.Tests.csproj", "{765F328F-E8B0-4A49-91A2-9D38EC1CD439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeralNerd.FLog", "FeralNerd.FLog\FeralNerd.FLog.csproj", "{E2AF373E-7C99-42F9-AA21-135D49FD4D88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{765F328F-E8B0-4A49-91A2-9D38EC1CD439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765F328F-E8B0-4A49-91A2-9D38EC1CD439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765F328F-E8B0-4A49-91A2-9D38EC1CD439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765F328F-E8B0-4A49-91A2-9D38EC1CD439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2AF373E-7C99-42F9-AA21-135D49FD4D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AF373E-7C99-42F9-AA21-135D49FD4D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AF373E-7C99-42F9-AA21-135D49FD4D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AF373E-7C99-42F9-AA21-135D49FD4D88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
