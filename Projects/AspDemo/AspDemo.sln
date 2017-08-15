@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCrud", "EFCrud\EFCrud.csproj", "{349B051A-3266-4373-9D30-E1FC6DB15269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityRepository", "UniversityRepository\UniversityRepository.csproj", "{35A82444-4DAC-4EC1-9042-A982D1894CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityRepositoryEF", "UniversityRepositoryEF\UniversityRepositoryEF.csproj", "{1BC192AC-7B5F-4C44-9B00-30639438E887}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3D228FBD-4DF2-4CF5-8F82-CB1E91168500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityRepositoryTests", "UniversityRepositoryTests\UniversityRepositoryTests.csproj", "{FB9566E0-BE31-4A36-BDAA-030B8BF770C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityStudents", "UniversityStudents\UniversityStudents.csproj", "{34FD2368-2DDA-4744-A02A-427C2CC8E80F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityStudents.Tests", "UniversityStudents.Tests\UniversityStudents.Tests.csproj", "{2F801DB8-7E24-4452-9BB7-5460D8E21C92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{F2C48C1E-1F0D-456F-A106-4FBD39E85A78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{349B051A-3266-4373-9D30-E1FC6DB15269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349B051A-3266-4373-9D30-E1FC6DB15269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349B051A-3266-4373-9D30-E1FC6DB15269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349B051A-3266-4373-9D30-E1FC6DB15269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A82444-4DAC-4EC1-9042-A982D1894CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A82444-4DAC-4EC1-9042-A982D1894CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A82444-4DAC-4EC1-9042-A982D1894CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A82444-4DAC-4EC1-9042-A982D1894CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC192AC-7B5F-4C44-9B00-30639438E887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC192AC-7B5F-4C44-9B00-30639438E887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC192AC-7B5F-4C44-9B00-30639438E887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC192AC-7B5F-4C44-9B00-30639438E887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9566E0-BE31-4A36-BDAA-030B8BF770C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9566E0-BE31-4A36-BDAA-030B8BF770C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9566E0-BE31-4A36-BDAA-030B8BF770C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9566E0-BE31-4A36-BDAA-030B8BF770C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FD2368-2DDA-4744-A02A-427C2CC8E80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FD2368-2DDA-4744-A02A-427C2CC8E80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FD2368-2DDA-4744-A02A-427C2CC8E80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FD2368-2DDA-4744-A02A-427C2CC8E80F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F801DB8-7E24-4452-9BB7-5460D8E21C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F801DB8-7E24-4452-9BB7-5460D8E21C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F801DB8-7E24-4452-9BB7-5460D8E21C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F801DB8-7E24-4452-9BB7-5460D8E21C92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{349B051A-3266-4373-9D30-E1FC6DB15269} = {3D228FBD-4DF2-4CF5-8F82-CB1E91168500}
+		{35A82444-4DAC-4EC1-9042-A982D1894CDA} = {F2C48C1E-1F0D-456F-A106-4FBD39E85A78}
+		{1BC192AC-7B5F-4C44-9B00-30639438E887} = {F2C48C1E-1F0D-456F-A106-4FBD39E85A78}
+		{FB9566E0-BE31-4A36-BDAA-030B8BF770C4} = {3D228FBD-4DF2-4CF5-8F82-CB1E91168500}
+		{2F801DB8-7E24-4452-9BB7-5460D8E21C92} = {3D228FBD-4DF2-4CF5-8F82-CB1E91168500}
+	EndGlobalSection
+EndGlobal
